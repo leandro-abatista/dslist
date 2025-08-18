@@ -30,8 +30,10 @@ public class Game {
 	private Double score;
 	private String imgUrl;
 	// descrição curta do jogo
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
 	// descrição longa do jogo
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 
 	public Game() {
